@@ -1423,10 +1423,10 @@ header {
 
 @media (min-width: 900px) {
   .contact-layout {
-    grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
-    align-items: start;
+    grid-template-columns: 1fr;
   }
 }
+
 
 /* CONTACT FORM CARD */
 .contact-form-card {
