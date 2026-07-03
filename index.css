@@ -742,10 +742,10 @@ header {
 
 @media (min-width: 900px) {
   .about-grid {
-    grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
-    align-items: start;
+    grid-template-columns: 1fr;
   }
 }
+
 
 .card {
   border-radius: var(--radius-lg);
@@ -756,6 +756,8 @@ header {
   position: relative;
   overflow: hidden;
   margin-top: 20px;
+    width: 100%;
+  max-width: 100%;
 }
 
 .card::before {
