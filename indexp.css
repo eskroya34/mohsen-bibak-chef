@@ -1019,10 +1019,10 @@ header {
 
 @media (min-width: 900px) {
   .experience-layout {
-    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.1fr);
-    align-items: start;
+    grid-template-columns: 1fr;
   }
 }
+
 
 .timeline {
   position: relative;
@@ -1097,6 +1097,8 @@ header {
   box-shadow: var(--shadow-soft);
   position: relative;
   overflow: hidden;
+    width: 100%;
+  max-width: 100%;
 }
 
 .experience-highlight::before {
