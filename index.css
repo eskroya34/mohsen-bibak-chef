@@ -1340,6 +1340,60 @@ header {
   margin-top: 0.2rem;
 }
 
+/* ============================
+   SPECIALTIES — CHEF METALLIC
+============================= */
+
+.specialties-grid {
+  display: grid;
+  gap: var(--space-6);
+  margin-top: var(--space-6);
+}
+
+@media (min-width: 900px) {
+  .specialties-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.specialty-card {
+  border-radius: var(--radius-md);
+  background: linear-gradient(145deg, #151517, #0f0f11);
+  border: 1px solid rgba(230, 210, 143, 0.18);
+  box-shadow: var(--shadow-soft);
+  padding: var(--space-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  transition: transform var(--transition-slow), 
+              box-shadow var(--transition-slow), 
+              border-color var(--transition-slow);
+  width: 100%;
+}
+
+.specialty-card:hover {
+  transform: translateY(-6px) scale(1.01);
+  border-color: rgba(230, 210, 143, 0.5);
+  box-shadow: 0 26px 60px rgba(0, 0, 0, 0.9);
+}
+
+.specialty-card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--accent-strong);
+}
+
+.specialty-card p {
+  font-size: 0.9rem;
+  color: var(--text-soft);
+  line-height: 1.6;
+}
+
+
+
+
+
+
 
 /* ============================
    CONTACT — CHEF METALLIC COLD
