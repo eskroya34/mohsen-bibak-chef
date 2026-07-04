@@ -1436,6 +1436,8 @@ header {
   border: 1px solid rgba(230, 210, 143, 0.18);
   box-shadow: var(--shadow-soft);
   padding: var(--space-6);
+    width: 100%;
+  height: 100%;
   
 }
 
