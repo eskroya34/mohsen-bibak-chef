@@ -1,0 +1,4 @@
+Contact: mailto:mohsen.bibak1212@gmail.com
+Expires: 2027-01-01T00:00:00.000Z
+Preferred-Languages: fa, en
+Canonical: https://chefmohsenbibak.com/.well-known/security.txt
